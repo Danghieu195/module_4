@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d3b523e-0d54-416e-9bc8-a5e1694badab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/.idea/modules/Excise_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/java/com/codegym/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Bai_tap/Excise_1/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/.idea/modules/Practice_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/java/com/codegym/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_3_ThymeLeaf/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/.idea/modules/Excise_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/java/com/codegym/controller/StoreEmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/java/com/codegym/model/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/webapp/WEB-INF/views/email/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/webapp/WEB-INF/views/email/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/webapp/WEB-INF/views/email/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Bai_tap/Excise_1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_1/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_1/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_1/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_1/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_1/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/.idea/modules/Practice_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/java/com/codegym/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/java/com/codegym/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/view/user/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/view/user/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/view/user/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_4_DataBinding_And_Form/Thuc_hanh/Practice_2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/configuration/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/repository/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/repository/IMusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/repository/MusicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/service/IMusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/java/dh/music_application/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_5_ORM_CSDL/Bai_tap/Excise_1/src/main/webapp/WEB-INF/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_1_Spring_MVC/Thuc_hanh/Thuc_hanh_2/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_1_Spring_MVC/Thuc_hanh/Thuc_hanh_2/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_2_Spring_Controllers/Bai_tap/Excise_2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_2_Spring_Controllers/Bai_tap/Excise_2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_2_Spring_Controllers/Thuc_hanh/Practice_1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_2_Spring_Controllers/Thuc_hanh/Practice_1/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="29yXPyiyML6BVaIiupaBxVaP3o3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d3b523e-0d54-416e-9bc8-a5e1694badab" name="Default Changelist" comment="" />
+      <created>1654086280476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654086280476</updated>
+      <workItem from="1654086283366" duration="154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
