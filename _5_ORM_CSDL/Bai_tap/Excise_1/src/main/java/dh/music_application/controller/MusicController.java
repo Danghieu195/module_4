@@ -21,7 +21,7 @@ public class MusicController {
 
     @GetMapping(value = "")
     public String list(Model model) {
-        List<Music> musics = this.iMusicService.findAll();
+        List<Music> musics = iMusicService.findAll();
         model.addAttribute("musics",musics);
 
         return "list";
