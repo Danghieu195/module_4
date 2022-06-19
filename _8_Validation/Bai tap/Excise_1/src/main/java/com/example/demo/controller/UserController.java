@@ -28,7 +28,7 @@ public class UserController {
         return "create";
     }
 
-    @PostMapping("/validationUser")
+    @PostMapping("/validateUser")
     public String create(@Validated @ModelAttribute(name = "userDTO") UserDTO userDTO, BindingResult bindingResult, Model model){
         if (bindingResult.hasFieldErrors()) {
             return "create";

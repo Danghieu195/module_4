@@ -8,15 +8,15 @@ import javax.validation.constraints.*;
 public class UserDTO {
     private Integer id;
 
-    @NotEmpty(message = "FirstName not empty")
+    @NotBlank(message = "FirstName not empty")
     @Size (min = 5, max = 50, message = "Length from 5 to 50")
     private String firstName;
 
-    @NotEmpty(message = "FirstName not empty")
+    @NotBlank(message = "LastName not empty")
     @Size (min = 5, max = 50, message = "Length from 5 to 50")
     private String lastName;
 
-    @NotEmpty(message = "Phone number not empty")
+    @NotBlank(message = "Phone number not empty")
     @Pattern(regexp = "^0[0-9]{9,10}$",message = "Phone number is a number")
     private String phoneNumber;
 
@@ -30,6 +30,15 @@ public class UserDTO {
     protected String email;
 
     public UserDTO() {
+    }
+
+    public UserDTO(Integer id, @NotBlank(message = "FirstName not empty") @Size(min = 5, max = 50, message = "Length from 5 to 50") String firstName, @NotBlank(message = "LastName not empty") @Size(min = 5, max = 50, message = "Length from 5 to 50") String lastName, @NotBlank(message = "Phone number not empty") @Pattern(regexp = "^0[0-9]{9,10}$", message = "Phone number is a number") String phoneNumber, @NotNull(message = "Age not empty") @Min(value = 18, message = "Age greater than 18") Integer age, @NotEmpty(message = "Email not empty") @Email(message = "Email not follow the rules") String email) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.age = age;
+        this.email = email;
     }
 
     public Integer getId() {

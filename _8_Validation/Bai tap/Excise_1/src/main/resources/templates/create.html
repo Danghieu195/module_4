@@ -10,42 +10,43 @@
     <h3> Add new user</h3>
 
     <div>
-        <form th:action="@{/validateUser}" method="post" th:object="${userDTO}">
+        <form th:action="@{/user/validateUser}" method="post" th:object="${userDTO}">
             <input type="hidden" th:fields="*{id}">
             <div class="mx-3">
-                <td >ID</td>
-                <input th:field="*{id}" type="text">
+                <label class="form-label">ID</label>
+                <input th:field="*{id}" type="text" class="form-control">
             </div>
             <div class="mb-3">
-                <td>First Name</td>
-                <input th:fields="*{firstName}" type="text" id="firstName">
-                <p th:errors="*{firstName}" th:if="${#fields.hasErrors('firstName')}">First Name error</p>
+                <label class="form-label">First Name</label>
+                <input th:field="*{firstName}" type="text" id="firstName" class="form-control">
+                <p th:errors="*{firstName}" th:if="${#fields.hasErrors('firstName')}" class="text-danger">First Name error</p>
             </div>
 
             <div class="mb-3">
-                <td>Last Name</td>
-                <input th:fields="*{lastName}" type="text" id="lastName">
-                <p th:errors="*{lastName}" th:if="${#fields.hasErrors('lastName')}">Last Name error</p>
+                <label class="form-label">Last Name</label>
+                <input th:field="*{lastName}" type="text" id="lastName" class="form-control">
+                <p th:errors="*{lastName}" th:if="${#fields.hasErrors('lastName')}" class="text-danger">Last Name error</p>
             </div>
 
             <div class="mb-3">
-                <td>Phone Number</td>
-                <input th:fields="*{phoneNumber}" type="text" id="phoneNumber">
-                <p th:errors="*{phoneNumber}" th:if="${#fields.hasErrors('phoneNumber')}">Phone Number error</p>
+                <label class="form-label">Phone Number</label>
+                <input th:field="*{phoneNumber}" type="text" id="phoneNumber" class="form-control">
+                <p th:errors="*{phoneNumber}" th:if="${#fields.hasErrors('phoneNumber')}" class="text-danger">Phone Number error</p>
             </div>
 
             <div class="mb-3">
-                <td>Age</td>
-                <input th:field="*{age}" type="text" id="age">
-                <p th:errors="*{age}" th:if="${#fields.hasErrors('age')}">Age error</p>
+                <label class="form-label">Age</label>
+                <input th:field="*{age}" type="text" id="age" class="form-control">
+                <p th:errors="*{age}" th:if="${#fields.hasErrors('age')}" class="text-danger">Age error</p>
             </div>
 
             <div class="mb-3">
-                <td>Email</td>
-                <input th:field="*{email}" type="text" id="email">
-                <p th:errors="*{email}" th:if="${#fields.hasErrors('email')}">Email error</p>
+                <label class="form-label">Email</label>
+                <input th:field="*{email}" type="text" id="email" class="form-control">
+                <p th:errors="*{email}" th:if="${#fields.hasErrors('email')}" class="text-danger">Email error</p>
             </div>
-            <input type="submit" value="Save">
+
+            <input class="btn btn-danger" type="submit" value="Save">
         </form>
     </div>
 </div>
