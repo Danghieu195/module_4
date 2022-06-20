@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Shop</title>
+    <link th:href="@{/Bootstrap.css/bootstrap.min.css}" rel="stylesheet">
+</head>
+<body>
+<div class="mx-5">
+    <h3 class="mb-3"> List Product</h3>
+    <div th:if="${msg}" class="mb-3">
+        <span th:text="${msg}"></span>
+    </div>
+    <p class="mb-3">
+        <a th:href="@{/your-cart}" class="fw-bold text-dark text-decoration-none">Your Cart</a>
+    </p>
+
+    <div>
+        <a th:href="@{/shop(page=${products.number - 1})}" th:if="${products.hasPrevious()}">
+            <span aria-hidden="true">&laquo;</span>
+        </a>
+
+        <span th:text="${products.number + 1}"></span> / <span th:text="${products.totalPages}"></span>
+
+        <a th:href="@{/shop(page=${products.number + 1})}" th:if="${products.hasNext()}">
+            <span aria-hidden="true">&raquo;</span>
+        </a>
+    </div>
+
+</div>
+
+
+<script th:src="@{/Bootstrap.css/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
