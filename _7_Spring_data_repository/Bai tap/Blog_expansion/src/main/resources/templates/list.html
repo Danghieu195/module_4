@@ -71,7 +71,7 @@
                 </td>
 
                 <td>
-                    <a th:href="@{/blog/{id}/delete(id=${blog.getId()})}" class="text-dark text-decoration-none">Delete</a>
+                    <a th:href="@{/blog/{id}/delete(id=${blog.getId()})}" class="text-dark text-decoration-none">Delete </a>
                 </td>
 
                 <td>
@@ -86,7 +86,7 @@
     <div>
         <a th:href="@{/blog(page=${blogs.number - 1})}" th:if="${blogs.hasPrevious()}">Previous</a>
         <span th:text="${blogs.number}"></span>/<span th:text="${blogs.totalPages}"></span>
-        <a th:href="@{/blog(page=${blogs.number+1})}" th:if="${blogs.hasNext()}">Previous</a>
+        <a th:href="@{/blog(page=${blogs.number+1})}" th:if="${blogs.hasNext()}">Next</a>
     </div>
 
 </div>

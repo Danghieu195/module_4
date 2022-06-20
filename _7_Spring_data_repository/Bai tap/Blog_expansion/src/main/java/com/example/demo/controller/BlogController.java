@@ -65,16 +65,44 @@ public class BlogController {
 //    }
 
     @GetMapping("")
-    public String getList(Model model, @PageableDefault(size = 1) Pageable pageable){
+    public String getList(Model model, @PageableDefault(size = 2) Pageable pageable){
         Page<Blog> blogs = iBlogService.findAll(pageable);
         model.addAttribute("blogs", blogs);
         return "list";
+    }
+
+    @GetMapping(value = "/{id}/delete")
+    public String delete(@PathVariable Integer id, Model model) {
+        Optional<Blog> blog = this.iBlogService.findByID(id);
+
+        if (blog.isPresent()) {
+            model.addAttribute("blog",blog.get());
+            return "delete";
+        } else {
+            return "error.404";
+        }
     }
 
     @PostMapping(value = "/delete")
     public String delete(@ModelAttribute(name = "blog") Blog blog, RedirectAttributes redirectAttributes) {
         this.iBlogService.remove(blog.getId());
         redirectAttributes.addFlashAttribute("msg","Delete blog successfully!");
+
+        return "redirect:/blog";
+    }
+
+    @GetMapping(value = "/create")
+    public String addNew(Model model) {
+        model.addAttribute("blog",new Blog());
+        return "create";
+    }
+
+    @PostMapping(value = "/save")
+    public String save(@ModelAttribute(name = "blog") Blog blog, RedirectAttributes redirectAttributes) {
+
+        this.iBlogService.save(blog);
+
+        redirectAttributes.addFlashAttribute("msg","Add new blog successfully!");
 
         return "redirect:/blog";
     }

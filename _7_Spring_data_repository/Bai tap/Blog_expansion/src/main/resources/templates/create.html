@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link th:href="@{/Bootstrap.css/bootstrap.min.css}" rel="stylesheet">
 </head>
 <body>
+<div class="mx-5">
+    <h3>Add new blog</h3>
 
+    <p>
+        <a th:href="@{/blog}" class="text-dark text-decoration-none">Back to blog list!</a>
+    </p>
+
+    <div>
+        <form th:action="@{/blog/save}" method="post" th:object="${blog}">
+
+            <input type="hidden" th:field="*{id}">
+
+            <div class="mb-3">
+                <label for="name" class="form-label">Name: </label>
+                <input type="text" class="form-control" id="name" th:field="*{name}">
+            </div>
+
+            <div class="mb-3">
+                <label for="author" class="form-label">Author: </label>
+                <input type="text" class="form-control" id="author" th:field="*{author}">
+            </div>
+
+            <div class="mb-3">
+                <label for="briefDescription" class="form-label">Brief Description: </label>
+                <input type="text" class="form-control" id="briefDescription" th:field="*{briefDiscription}">
+            </div>
+
+            <div class="mb-3">
+                <label for="startDate" class="form-label">Start Date: </label>
+                <input type="text" class="form-control" id="startDate" th:field="*{date}">
+            </div>
+
+            <div class="mb-3">
+
+                <label for="category" class="form-label">Category: </label><br>
+
+                <select th:field="*{category.id}" id="category">
+                    <option th:each="category : ${categories}" th:value="${category.id}" th:text="${category.name}"></option>
+                </select>
+
+            </div>
+
+            <input type="submit" value="Save">
+
+        </form>
+    </div>
+</div>
+
+<script th:src="@{/Bootstrap.css/bootstrap.bundle.min.js}"></script>
 </body>
 </html>
