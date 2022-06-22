@@ -9,7 +9,7 @@ import java.util.Optional;
 
 
 public interface IBlogService {
-    public Iterable<Blog> findAll();
+    public Iterable<Blog> findAll1(Pageable pageable);
 
     public Page<Blog> findAll(Pageable pageable);
 

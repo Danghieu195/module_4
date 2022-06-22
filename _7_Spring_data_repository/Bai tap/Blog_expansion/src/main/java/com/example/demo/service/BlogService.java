@@ -15,11 +15,11 @@ public class BlogService implements IBlogService{
     @Autowired
     private IBlogRepository blogRepository;
 
-
     @Override
-    public Iterable<Blog> findAll() {
-        return null;
+    public Iterable<Blog> findAll1(Pageable pageable) {
+        return blogRepository.findAll(pageable);
     }
+
 
     @Override
     public Page<Blog> findAll(Pageable pageable) {
@@ -28,7 +28,7 @@ public class BlogService implements IBlogService{
 
     @Override
     public Optional<Blog> findByID(Integer id) {
-        return Optional.empty();
+        return blogRepository.findById(id);
     }
 
     @Override
@@ -38,7 +38,7 @@ public class BlogService implements IBlogService{
 
     @Override
     public void remove(Integer id) {
-
+        blogRepository.delete(findByID(id).get());
     }
 
     @Override
@@ -55,4 +55,6 @@ public class BlogService implements IBlogService{
     public Page<Blog> findAllByAuthorAndCategory_Id(String author, Integer categoryID, Pageable pageable) {
         return blogRepository.findAllByCategory_IdAndAuthor(categoryID, author, pageable);
     }
+
+
 }

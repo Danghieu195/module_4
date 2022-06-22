@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
-@Service
+
 public interface IProductService {
     Page<Product> findAll(Pageable pageable);
 
