@@ -3,7 +3,7 @@ package com.example.demo.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Shop_jun")
+@Table
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,14 +12,18 @@ public class Product {
     private String image;
     private double price;
 
+    @Column
+    private String description;
+
     public Product() {
     }
 
-    public Product(Integer id, String name, String image, double price) {
+    public Product(Integer id, String name, String image, double price, String description) {
         this.id = id;
         this.name = name;
         this.image = image;
         this.price = price;
+        this.description = description;
     }
 
     public Integer getId() {
@@ -52,5 +56,13 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

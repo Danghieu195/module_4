@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>View Product</title>
+    <link th:href="@{/Bootstrap.css/bootstrap.min.css}" rel="stylesheet">
+
 </head>
 <body>
+<p>
+    <a th:href="@{/shop}" class="text-dark text-decoration-none">Back to shop!</a>
+</p>
 
+<div class="mb-3">
+    <table class="table">
+        <thead class="bg-secondary">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Price</th>
+            <th scope="col">Description</th>
+            <th scope="col">Add To Cart</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <th scope="row" th:text="${product.getId()}"></th>
+            <td th:text="${product.getName()}"></td>
+
+            <td>
+                <img th:src="@{'/Bootstrap.css/images/' + ${product.getImage()}}" style="width: 100px; height: 100px" alt="laptop_img">
+            </td>
+
+            <td th:text="${product.getPrice()}"></td>
+            <td th:text="${product.getDescription()}"></td>
+
+            <td>
+                <a th:href="@{/shop/{id}/add(id=${product.getId()},action='list')}" class="text-dark text-decoration-none">Add To Cart</a>
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<script th:src="@{/Bootstrap.css/bootstrap.bundle.min.js}"></script>
 </body>
 </html>
